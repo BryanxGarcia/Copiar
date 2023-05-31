@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.acomodar{
+    
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80%;
+  bottom: 0;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="acomodar">
+        <div >
+            <h3>Tarea</h3>
+
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+            <input type="submit" onClick="guardarTarea();" value="Enviar" />
+
+        </div>
+
+        <div>
+            <h3>Tareas</h3>
+            <ul id="listar-tarea"></ul>
+
+        </div>
+    </div>
+
+    <script src="js/scrip.js"></script>
+</body>
+
+</html>
